@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F6F74A1B7303CB00D32119 /* libKline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6F73F1B7303CB00D32119 /* libKline.framework */; };
+		11F6F7531B7303CB00D32119 /* libKlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F6F7521B7303CB00D32119 /* libKlineTests.m */; };
+		11F6F7561B7303CB00D32119 /* libKline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6F73F1B7303CB00D32119 /* libKline.framework */; };
+		11F6F7571B7303CB00D32119 /* libKline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6F73F1B7303CB00D32119 /* libKline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11F6F75F1B7303E500D32119 /* KlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FC86371AD8B38000F84682 /* KlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F6F7601B7303F500D32119 /* KlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86381AD8B38000F84682 /* KlineView.m */; };
+		11FA82E81ADBA395004CC752 /* libKline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FA82DD1ADBA395004CC752 /* libKline.a */; };
+		11FA82F41ADBA3B6004CC752 /* KlineView.h in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86371AD8B38000F84682 /* KlineView.h */; };
+		11FA82F51ADBA3B6004CC752 /* KlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86381AD8B38000F84682 /* KlineView.m */; };
 		11FC86141AD8B36300F84682 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86131AD8B36300F84682 /* main.m */; };
 		11FC86171AD8B36300F84682 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86161AD8B36300F84682 /* AppDelegate.m */; };
 		11FC861A1AD8B36300F84682 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86191AD8B36300F84682 /* ViewController.m */; };
@@ -14,9 +23,38 @@
 		11FC861F1AD8B36300F84682 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FC861E1AD8B36300F84682 /* Images.xcassets */; };
 		11FC86221AD8B36300F84682 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FC86201AD8B36300F84682 /* LaunchScreen.xib */; };
 		11FC862E1AD8B36300F84682 /* KlineViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC862D1AD8B36300F84682 /* KlineViewTests.m */; };
+		11FC86391AD8B38000F84682 /* KlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC86381AD8B38000F84682 /* KlineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		11F6F74B1B7303CB00D32119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC86061AD8B36300F84682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F6F73E1B7303CB00D32119;
+			remoteInfo = libKline;
+		};
+		11F6F74D1B7303CB00D32119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC86061AD8B36300F84682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FC860D1AD8B36300F84682;
+			remoteInfo = KlineView;
+		};
+		11F6F7541B7303CB00D32119 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC86061AD8B36300F84682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F6F73E1B7303CB00D32119;
+			remoteInfo = libKline;
+		};
+		11FA82E91ADBA395004CC752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC86061AD8B36300F84682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FA82DC1ADBA395004CC752;
+			remoteInfo = Kline;
+		};
 		11FC86281AD8B36300F84682 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 11FC86061AD8B36300F84682 /* Project object */;
@@ -26,7 +64,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		11F6F75D1B7303CB00D32119 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11F6F7571B7303CB00D32119 /* libKline.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FA82DB1ADBA395004CC752 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		11F6F73F1B7303CB00D32119 /* libKline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libKline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F6F7421B7303CB00D32119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F6F7431B7303CB00D32119 /* libKline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libKline.h; sourceTree = "<group>"; };
+		11F6F7491B7303CB00D32119 /* libKlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libKlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F6F7511B7303CB00D32119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F6F7521B7303CB00D32119 /* libKlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libKlineTests.m; sourceTree = "<group>"; };
+		11FA82DD1ADBA395004CC752 /* libKline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKline.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FA82E71ADBA395004CC752 /* KlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FA82ED1ADBA395004CC752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11FC860E1AD8B36300F84682 /* KlineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FC86121AD8B36300F84682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11FC86131AD8B36300F84682 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,13 +110,46 @@
 		11FC86271AD8B36300F84682 /* KlineViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlineViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FC862C1AD8B36300F84682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11FC862D1AD8B36300F84682 /* KlineViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlineViewTests.m; sourceTree = "<group>"; };
+		11FC86371AD8B38000F84682 /* KlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlineView.h; sourceTree = "<group>"; };
+		11FC86381AD8B38000F84682 /* KlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KlineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		11F6F73B1B7303CB00D32119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F6F7461B7303CB00D32119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6F74A1B7303CB00D32119 /* libKline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FA82DA1ADBA395004CC752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FA82E41ADBA395004CC752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FA82E81ADBA395004CC752 /* libKline.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11FC860B1AD8B36300F84682 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F6F7561B7303CB00D32119 /* libKline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +163,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11F6F7401B7303CB00D32119 /* libKline */ = {
+			isa = PBXGroup;
+			children = (
+				11F6F7431B7303CB00D32119 /* libKline.h */,
+				11F6F7411B7303CB00D32119 /* Supporting Files */,
+			);
+			path = libKline;
+			sourceTree = "<group>";
+		};
+		11F6F7411B7303CB00D32119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F6F7421B7303CB00D32119 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11F6F74F1B7303CB00D32119 /* libKlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				11F6F7521B7303CB00D32119 /* libKlineTests.m */,
+				11F6F7501B7303CB00D32119 /* Supporting Files */,
+			);
+			path = libKlineTests;
+			sourceTree = "<group>";
+		};
+		11F6F7501B7303CB00D32119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F6F7511B7303CB00D32119 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11FA82EB1ADBA395004CC752 /* KlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FA82EC1ADBA395004CC752 /* Supporting Files */,
+			);
+			path = KlineTests;
+			sourceTree = "<group>";
+		};
+		11FA82EC1ADBA395004CC752 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FA82ED1ADBA395004CC752 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		11FC86051AD8B36300F84682 = {
 			isa = PBXGroup;
 			children = (
 				11FC86101AD8B36300F84682 /* KlineView */,
 				11FC862A1AD8B36300F84682 /* KlineViewTests */,
+				11FA82EB1ADBA395004CC752 /* KlineTests */,
+				11F6F7401B7303CB00D32119 /* libKline */,
+				11F6F74F1B7303CB00D32119 /* libKlineTests */,
 				11FC860F1AD8B36300F84682 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +230,10 @@
 			children = (
 				11FC860E1AD8B36300F84682 /* KlineView.app */,
 				11FC86271AD8B36300F84682 /* KlineViewTests.xctest */,
+				11FA82DD1ADBA395004CC752 /* libKline.a */,
+				11FA82E71ADBA395004CC752 /* KlineTests.xctest */,
+				11F6F73F1B7303CB00D32119 /* libKline.framework */,
+				11F6F7491B7303CB00D32119 /* libKlineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +243,8 @@
 			children = (
 				11FC86151AD8B36300F84682 /* AppDelegate.h */,
 				11FC86161AD8B36300F84682 /* AppDelegate.m */,
+				11FC86371AD8B38000F84682 /* KlineView.h */,
+				11FC86381AD8B38000F84682 /* KlineView.m */,
 				11FC86181AD8B36300F84682 /* ViewController.h */,
 				11FC86191AD8B36300F84682 /* ViewController.m */,
 				11FC861B1AD8B36300F84682 /* Main.storyboard */,
@@ -121,7 +283,90 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		11F6F73C1B7303CB00D32119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6F75F1B7303E500D32119 /* KlineView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		11F6F73E1B7303CB00D32119 /* libKline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F6F75C1B7303CB00D32119 /* Build configuration list for PBXNativeTarget "libKline" */;
+			buildPhases = (
+				11F6F73A1B7303CB00D32119 /* Sources */,
+				11F6F73B1B7303CB00D32119 /* Frameworks */,
+				11F6F73C1B7303CB00D32119 /* Headers */,
+				11F6F73D1B7303CB00D32119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libKline;
+			productName = libKline;
+			productReference = 11F6F73F1B7303CB00D32119 /* libKline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11F6F7481B7303CB00D32119 /* libKlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F6F75E1B7303CB00D32119 /* Build configuration list for PBXNativeTarget "libKlineTests" */;
+			buildPhases = (
+				11F6F7451B7303CB00D32119 /* Sources */,
+				11F6F7461B7303CB00D32119 /* Frameworks */,
+				11F6F7471B7303CB00D32119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F6F74C1B7303CB00D32119 /* PBXTargetDependency */,
+				11F6F74E1B7303CB00D32119 /* PBXTargetDependency */,
+			);
+			name = libKlineTests;
+			productName = libKlineTests;
+			productReference = 11F6F7491B7303CB00D32119 /* libKlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11FA82DC1ADBA395004CC752 /* Kline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FA82F21ADBA395004CC752 /* Build configuration list for PBXNativeTarget "Kline" */;
+			buildPhases = (
+				11FA82D91ADBA395004CC752 /* Sources */,
+				11FA82DA1ADBA395004CC752 /* Frameworks */,
+				11FA82DB1ADBA395004CC752 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kline;
+			productName = Kline;
+			productReference = 11FA82DD1ADBA395004CC752 /* libKline.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		11FA82E61ADBA395004CC752 /* KlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FA82F31ADBA395004CC752 /* Build configuration list for PBXNativeTarget "KlineTests" */;
+			buildPhases = (
+				11FA82E31ADBA395004CC752 /* Sources */,
+				11FA82E41ADBA395004CC752 /* Frameworks */,
+				11FA82E51ADBA395004CC752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FA82EA1ADBA395004CC752 /* PBXTargetDependency */,
+			);
+			name = KlineTests;
+			productName = KlineTests;
+			productReference = 11FA82E71ADBA395004CC752 /* KlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		11FC860D1AD8B36300F84682 /* KlineView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11FC86311AD8B36300F84682 /* Build configuration list for PBXNativeTarget "KlineView" */;
@@ -129,10 +374,12 @@
 				11FC860A1AD8B36300F84682 /* Sources */,
 				11FC860B1AD8B36300F84682 /* Frameworks */,
 				11FC860C1AD8B36300F84682 /* Resources */,
+				11F6F75D1B7303CB00D32119 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				11F6F7551B7303CB00D32119 /* PBXTargetDependency */,
 			);
 			name = KlineView;
 			productName = KlineView;
@@ -166,6 +413,19 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = BlueMobi;
 				TargetAttributes = {
+					11F6F73E1B7303CB00D32119 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					11F6F7481B7303CB00D32119 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 11FC860D1AD8B36300F84682;
+					};
+					11FA82DC1ADBA395004CC752 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					11FA82E61ADBA395004CC752 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					11FC860D1AD8B36300F84682 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -190,11 +450,36 @@
 			targets = (
 				11FC860D1AD8B36300F84682 /* KlineView */,
 				11FC86261AD8B36300F84682 /* KlineViewTests */,
+				11FA82DC1ADBA395004CC752 /* Kline */,
+				11FA82E61ADBA395004CC752 /* KlineTests */,
+				11F6F73E1B7303CB00D32119 /* libKline */,
+				11F6F7481B7303CB00D32119 /* libKlineTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		11F6F73D1B7303CB00D32119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F6F7471B7303CB00D32119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FA82E51ADBA395004CC752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11FC860C1AD8B36300F84682 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,10 +500,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11F6F73A1B7303CB00D32119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6F7601B7303F500D32119 /* KlineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F6F7451B7303CB00D32119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F6F7531B7303CB00D32119 /* libKlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FA82D91ADBA395004CC752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FA82F41ADBA3B6004CC752 /* KlineView.h in Sources */,
+				11FA82F51ADBA3B6004CC752 /* KlineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FA82E31ADBA395004CC752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		11FC860A1AD8B36300F84682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FC86391AD8B38000F84682 /* KlineView.m in Sources */,
 				11FC861A1AD8B36300F84682 /* ViewController.m in Sources */,
 				11FC86171AD8B36300F84682 /* AppDelegate.m in Sources */,
 				11FC86141AD8B36300F84682 /* main.m in Sources */,
@@ -236,6 +554,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		11F6F74C1B7303CB00D32119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F6F73E1B7303CB00D32119 /* libKline */;
+			targetProxy = 11F6F74B1B7303CB00D32119 /* PBXContainerItemProxy */;
+		};
+		11F6F74E1B7303CB00D32119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FC860D1AD8B36300F84682 /* KlineView */;
+			targetProxy = 11F6F74D1B7303CB00D32119 /* PBXContainerItemProxy */;
+		};
+		11F6F7551B7303CB00D32119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F6F73E1B7303CB00D32119 /* libKline */;
+			targetProxy = 11F6F7541B7303CB00D32119 /* PBXContainerItemProxy */;
+		};
+		11FA82EA1ADBA395004CC752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FA82DC1ADBA395004CC752 /* Kline */;
+			targetProxy = 11FA82E91ADBA395004CC752 /* PBXContainerItemProxy */;
+		};
 		11FC86291AD8B36300F84682 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 11FC860D1AD8B36300F84682 /* KlineView */;
@@ -263,6 +601,144 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		11F6F7581B7303CB00D32119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libKline/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11F6F7591B7303CB00D32119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = libKline/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11F6F75A1B7303CB00D32119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libKlineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlineView.app/KlineView";
+			};
+			name = Debug;
+		};
+		11F6F75B1B7303CB00D32119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = libKlineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KlineView.app/KlineView";
+			};
+			name = Release;
+		};
+		11FA82EE1ADBA395004CC752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		11FA82EF1ADBA395004CC752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		11FA82F01ADBA395004CC752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11FA82F11ADBA395004CC752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		11FC862F1AD8B36300F84682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,7 +819,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KlineView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +834,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = KlineView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -396,6 +882,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11F6F75C1B7303CB00D32119 /* Build configuration list for PBXNativeTarget "libKline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F6F7581B7303CB00D32119 /* Debug */,
+				11F6F7591B7303CB00D32119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F6F75E1B7303CB00D32119 /* Build configuration list for PBXNativeTarget "libKlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F6F75A1B7303CB00D32119 /* Debug */,
+				11F6F75B1B7303CB00D32119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FA82F21ADBA395004CC752 /* Build configuration list for PBXNativeTarget "Kline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FA82EE1ADBA395004CC752 /* Debug */,
+				11FA82EF1ADBA395004CC752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FA82F31ADBA395004CC752 /* Build configuration list for PBXNativeTarget "KlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FA82F01ADBA395004CC752 /* Debug */,
+				11FA82F11ADBA395004CC752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		11FC86091AD8B36300F84682 /* Build configuration list for PBXProject "KlineView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -412,6 +934,7 @@
 				11FC86331AD8B36300F84682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11FC86341AD8B36300F84682 /* Build configuration list for PBXNativeTarget "KlineViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +943,7 @@
 				11FC86361AD8B36300F84682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
