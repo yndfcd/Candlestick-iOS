@@ -1,6 +1,6 @@
 #Candlestick view on IOS
 ##Overview
-    ![Candlestick view at work](https:raw.githubusercontent.com/smshen/MarkdownPhotos/master/Res/test.jpg)
+![Candlestick view at work](https://raw.githubusercontent.com/yndfcd/Candlestick-iOS/master/kline.gif)
 ## Files
 
 * KLineView.h
